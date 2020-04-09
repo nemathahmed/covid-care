@@ -7,10 +7,14 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'COVID Care',
-      theme: ThemeData(
+      home: Scaffold(
+        appBar: AppBar(backgroundColor: Color(0xFF69d296),
+          title: Center(
+            child: Text('Covid Care'
+            ),
+          ),
+        ) ,
 
-        primarySwatch: Colors.teal,
       ),
 
     );
