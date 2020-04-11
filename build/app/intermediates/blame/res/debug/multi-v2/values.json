@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/nemath/projects/covid_care/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "C:\\Users\\Prashita Jain\\Desktop\\Covid19\\covid-care-master\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
-                    "source": "/home/nemath/.gradle/caches/transforms-2/files-2.1/0a271e99b6771ad4a84318244d532fb7/core-1.0.0/res/values/values.xml",
+                    "source": "C:\\Users\\Prashita Jain\\.gradle\\caches\\transforms-2\\files-2.1\\0a271e99b6771ad4a84318244d532fb7\\core-1.0.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4,5,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,160,161,162,163,164,165,166,167,171,172,176,177,178,6,13,56,88,125",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/home/nemath/.gradle/caches/transforms-2/files-2.1/ae13efc3dbae5c9ee58d4933337fcd21/coordinatorlayout-1.0.0/res/values/values.xml",
+                    "source": "C:\\Users\\Prashita Jain\\.gradle\\caches\\transforms-2\\files-2.1\\ae13efc3dbae5c9ee58d4933337fcd21\\coordinatorlayout-1.0.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,102,3,13",
                         "startColumns": "4,4,4,4",
@@ -42,7 +42,7 @@
                     }
                 },
                 {
-                    "source": "/home/nemath/projects/covid_care/android/app/src/main/res/values/styles.xml",
+                    "source": "C:\\Users\\Prashita Jain\\Desktop\\Covid19\\covid-care-master\\android\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

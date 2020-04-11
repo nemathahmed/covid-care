@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/nemath/projects/covid_care/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-b+sr+Latn/values-b+sr+Latn.xml",
+            "outputFile": "C:\\Users\\Prashita Jain\\Desktop\\Covid19\\covid-care-master\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-b+sr+Latn\\values-b+sr+Latn.xml",
             "map": [
                 {
-                    "source": "/home/nemath/.gradle/caches/transforms-2/files-2.1/0a271e99b6771ad4a84318244d532fb7/core-1.0.0/res/values-b+sr+Latn/values-b+sr+Latn.xml",
+                    "source": "C:\\Users\\Prashita Jain\\.gradle\\caches\\transforms-2\\files-2.1\\0a271e99b6771ad4a84318244d532fb7\\core-1.0.0\\res\\values-b+sr+Latn\\values-b+sr+Latn.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
