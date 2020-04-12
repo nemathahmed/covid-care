@@ -5,12 +5,81 @@ import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
 
+//createOptions( String heading, String destination){
+//  return ( ListTile(
+//    title: Text('$heading'),
+//    onTap: () {
+//      // Update the state of the app.
+//      // ...
+//      //Closing the drawer
+//      Navigator.pop();
+//    },
+//  )
+//  );
+//}
+
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
         home: Scaffold(
+            drawer:Drawer(
+              child: ListView(
+                padding: EdgeInsets.zero,
+                children:[
+                  DrawerHeader(
+                  child: Text('Options'),
+                  decoration: BoxDecoration(
+                  color: Colors.teal.shade300,
+                  ),
+                  ),
+                  ListTile(
+                    title: Text('User Dashboard'),
+                    //This tab will have info of User health also from the database
+                    onTap: () {
+                      // Update the state of the app.
+                      // ...
+                    },
+                  ),
+                  ListTile(
+                    title: Text('Chat Bot'),
+                    onTap: () {
+                      // Update the state of the app.
+                      // ...
+                    },
+                  ),
+                  ListTile(
+                    title: Text('Your Location'),
+                    onTap: () {
+                      // Update the state of the app.
+                      // ...
+                    },
+                  ),
+                  ListTile(
+                    title: Text('Feedback'),
+                    // here they can order necessary things also
+                    // and can tell if they need housekeeping
+                    onTap: () {
+                      // Update the state of the app.
+                      // ...
+                    },
+                  ),
+                  ListTile(
+                    title: Text('Your Health'),
+                    // AI implementation and telling what risk they are
+                    // posed to
+                    onTap: () {
+                      // Update the state of the app.
+                      // ...
+
+                    },
+                  )
+                ]
+
+              ),
+
+            ),
             appBar: AppBar(backgroundColor: Color(0xFF69d296),
               title: Center(
                 child: Text('Covid Care'
@@ -18,26 +87,32 @@ class MyApp extends StatelessWidget {
               ),
             ),
             body: ListView(
-                  padding: EdgeInsets.only(top:20),
+                  padding: EdgeInsets.all(10.0),
                   children: [
                     Card(
                       child: Column(
                         children: <Widget>[
                           Row(
                             children: <Widget>[
-                              Text('Total Number of Cases',
-                              style:TextStyle(
-                                color:Colors.teal[500],
-                                fontWeight: FontWeight.bold,
-                              )),
+                              Expanded(
+                                flex:1,
+                                child: Text('Total Number of Cases',
+                                style:TextStyle(
+                                  color:Colors.teal[500],
+                                  fontWeight: FontWeight.bold,
+                                )),
+                              ),
                               SizedBox(
                                 width: 10,
                               ),
-                              Text('Total Number of deaths',
-                                  style:TextStyle(
-                                    color:Colors.teal[500],
-                                    fontWeight: FontWeight.bold,
-                                  ))
+                              Expanded(
+                                flex:1,
+                                child: Text('Total Number of deaths',
+                                    style:TextStyle(
+                                      color:Colors.teal[500],
+                                      fontWeight: FontWeight.bold,
+                                    )),
+                              )
                             ],
                           ),
 
@@ -46,17 +121,23 @@ class MyApp extends StatelessWidget {
                             child: Row(
                               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                               children: <Widget>[
-                                Text('1000000',
-                                    style:TextStyle(
-                                      color:Colors.teal[500],
-                                      fontWeight: FontWeight.bold,
-                                    )),
+                                Expanded(
+                                  flex:1,
+                                  child: Text('1000000',
+                                      style:TextStyle(
+                                        color:Colors.teal[500],
+                                        fontWeight: FontWeight.bold,
+                                      )),
+                                ),
 
-                                Text('10000',
-                                    style:TextStyle(
-                                      color:Colors.teal[500],
-                                      fontWeight: FontWeight.bold,
-                                    ))
+                                Expanded(
+                                  flex: 1,
+                                  child: Text('10000',
+                                      style:TextStyle(
+                                        color:Colors.teal[500],
+                                        fontWeight: FontWeight.bold,
+                                      )),
+                                )
                               ],
                             ),
                           )
